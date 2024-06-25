@@ -3,6 +3,8 @@ This project aims to create a Big Data architecture for real-time stock price fo
 
 ## Architecture of this project
 
+![Screenshot](/screenshot/architecture.png)
+
 We have set up microservices using Docker container
 
 - Collect data from Yahoo Finance, Google News, and EOD Historical Data
@@ -17,8 +19,6 @@ We have set up microservices using Docker container
 ## Tools: 
   Docker, Zeppelin, Spark, spark-NLP, ElasticSearch, Kibana, Hadoop HDFS, Apache Kafka, Apache Zookeeper, ONNX
 
-
-![Screenshot](/screenshot/architecture.png)
 
 ## Example Results on Kibana
 
