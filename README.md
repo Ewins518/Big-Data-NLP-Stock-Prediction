@@ -3,6 +3,21 @@ This project aims to create a Big Data architecture for real-time stock price fo
 
 ## Architecture of this project
 
+We have set up microservices using Docker container
+
+- Collect data from Yahoo Finance, Google News, and EOD Historical Data
+- Intercept data with Apache KAFKA
+- Store data in Hadoop HDFS
+- Analyse data with Spark
+- Sentiment Analysis with Spark-NLP
+- Train a LSTM model
+- Convert the model into ONNX format
+- Make a dashboard with KIBANA
+
+## Tools: 
+  Docker, Zeppelin, Spark, spark-NLP, ElasticSearch, Kibana, Hadoop HDFS, Apache Kafka, Apache Zookeeper, ONNX
+
+
 ![Screenshot](/screenshot/architecture.png)
 
 ## Example Results on Kibana
